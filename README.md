@@ -45,7 +45,3 @@ The output folder contains:
 - Top sub-category charts
 - KPI summary
 - Aggregated sales tables
-
-## How to Run the Project
-1. Clone the repository
-2. Install requirements
