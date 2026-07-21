@@ -1,5 +1,5 @@
 # superstore-sales-analysis
-End-to-end data analytics project analyzing retail sales data using Python (Pandas, Matplotlib, Seaborn) and Power BI. Includes data cleaning, exploratory data analysis, KPI metrics, and interactive dashboard.
+End-to-end data analytics project analyzing retail sales data using Python (Pandas, Matplotlib, Seaborn). Includes data cleaning, exploratory data analysis, and KPI metrics. A Power BI dashboard is planned as the next stage of this project (see Planned Enhancements below).
 
 ## Objectives
 - Analyze sales performance over time
@@ -7,7 +7,6 @@ End-to-end data analytics project analyzing retail sales data using Python (Pand
 - Analyze customer contribution to revenue
 - Evaluate shipping performance
 - Generate KPIs for business insights
-- Build Power BI dashboard
 
 ## Tools Used
 - Python
@@ -15,10 +14,12 @@ End-to-end data analytics project analyzing retail sales data using Python (Pand
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
-- Power BI
 
 ## Project Structure
 
+- Data/ — raw and cleaned dataset
+- Notebook/ — Jupyter notebook containing the full analysis
+- Output/ — exported charts and summary tables
 
 ## Analysis Performed
 - Data Cleaning
@@ -45,3 +46,6 @@ The output folder contains:
 - Top sub-category charts
 - KPI summary
 - Aggregated sales tables
+
+## Planned Enhancements
+- Build an interactive Power BI dashboard on top of the cleaned dataset and KPIs from this analysis, including data modelling, DAX measures, and drill-through visuals
