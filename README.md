@@ -1,70 +1,138 @@
 # Superstore Sales Analysis
 
-End-to-end data analytics project analysing retail sales data using Python and Power BI. The project includes data cleaning, exploratory data analysis, KPI analysis, interactive dashboard development, and business-focused data visualisation.
+An end-to-end retail sales analytics project using **Python and Microsoft Power BI** to explore sales performance, customer behaviour, product performance, regional trends, shipping patterns, and key business KPIs.
 
-## Objectives
+The project demonstrates a complete analytics workflow — from data cleaning and exploratory analysis in Python to interactive business intelligence reporting in Power BI.
 
-- Analyze sales performance over time
-- Identify top-performing regions and categories
-- Analyze customer contribution to revenue
-- Evaluate product and sub-category performance
-- Analyze monthly sales trends
-- Generate KPIs for business insights
-- Build an interactive Power BI dashboard for business reporting
+## 📌 Project Overview
 
-## Tools Used
+Retail organisations generate large volumes of transactional data, but raw data alone does not provide actionable business insight.
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- Microsoft Power BI
-- Power Query
-- DAX
+This project analyses a Superstore-style retail dataset to answer important business questions such as:
 
-## Project Structure
+- How are sales performing over time?
+- Which regions and categories generate the most sales?
+- Which customer segments contribute most to revenue?
+- Which products and sub-categories perform best?
+- How does sales performance change throughout the year?
+- Which shipping methods are most frequently used?
+- What KPIs can be used to monitor overall sales performance?
 
-- Data/ — raw and cleaned dataset
-- Notebook/ — Jupyter notebook containing data cleaning and exploratory data analysis
-- Output/ — exported charts, summary tables, and dashboard screenshot
-- PowerBI/ — completed Power BI dashboard (.pbix)
+The analysis was performed using **Python for data preparation and exploratory analysis**, followed by **Power BI for interactive dashboard development and business reporting**.
 
-## Analysis Performed
+## 🎯 Project Objectives
 
-### Data Cleaning
+The main objectives of this project are to:
 
-- Data cleaning and preprocessing
-- Handling missing and inconsistent values
-- Data type conversion
-- Date preparation
-- Feature engineering
+- Clean and prepare raw retail transaction data
+- Perform exploratory data analysis
+- Analyse sales trends over time
+- Compare regional and category performance
+- Analyse customer segments
+- Identify high-performing products and sub-categories
+- Examine shipping patterns
+- Calculate key business performance indicators
+- Build an interactive Power BI dashboard
+- Translate analytical findings into meaningful business insights
 
-### Exploratory Data Analysis
+## 🛠️ Tools & Technologies
 
-- Sales performance analysis
+### Programming & Data Analysis
+- **Python**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+- **Jupyter Notebook**
+
+### Business Intelligence
+- **Microsoft Power BI**
+- **Power Query**
+- **DAX**
+
+### Version Control
+- **Git**
+- **GitHub**
+
+## 🔄 Project Workflow
+
+```text
+Raw Dataset
+     ↓
+Data Cleaning & Preparation
+     ↓
+Exploratory Data Analysis
+     ↓
+Feature Engineering
+     ↓
+KPI Analysis
+     ↓
+Business Insights
+     ↓
+Power BI Data Model
+     ↓
+Interactive Dashboard
+```
+
+## 📊 Data Preparation
+
+The dataset was prepared before performing the analysis.
+
+Key data preparation activities included:
+
+- Inspecting the dataset structure
+- Identifying missing values
+- Checking data types
+- Converting fields into appropriate formats
+- Preparing date-related fields
+- Reviewing duplicate or inconsistent records
+- Creating analytical features required for KPI calculations
+- Preparing the cleaned dataset for visualisation and reporting
+
+## 🔎 Exploratory Data Analysis
+
+The exploratory analysis focused on understanding the main drivers of sales performance.
+
+### Sales Analysis
+- Overall sales performance
+- Monthly sales trends
 - Sales by region
 - Sales by category
 - Sales by sub-category
-- Customer analysis
-- Product performance analysis
-- Monthly sales trend analysis
-- Shipping analysis
+- Sales by customer segment
 
-### KPI Analysis
+### Product Analysis
+- Top-performing products
+- Product and sub-category performance
+- Contribution of different categories to overall sales
 
-- Total Sales
-- Total Orders
-- Unique Customers
-- Average Order Value
-- Sales Growth
-- Orders per Customer
+### Customer Analysis
+- Customer contribution to sales
+- Customer segments
+- Order and customer-level performance
 
-## Power BI Dashboard
+### Shipping Analysis
+- Shipping mode distribution
+- Relationship between shipping patterns and orders
 
-An interactive Power BI dashboard was developed to provide business-focused insights from the Superstore dataset.
+## 📈 Key Performance Indicators
 
-### Dashboard Visualizations
+The project includes analysis of important sales KPIs, including:
+
+- **Total Sales**
+- **Total Orders**
+- **Unique Customers**
+- **Average Order Value (AOV)**
+- **Sales Growth**
+
+These KPIs provide a high-level view of business performance while allowing users to investigate the underlying trends through the dashboard.
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard converts the analytical results into an interactive business intelligence report.
+
+### Dashboard Visualisations
+
+The dashboard includes:
 
 - Sales by Category
 - Sales by Segment
@@ -72,106 +140,136 @@ An interactive Power BI dashboard was developed to provide business-focused insi
 - Sales by Sub-Category
 - Top 10 Products by Sales
 - Monthly Sales Trend
+- KPI Cards
+- Year filters
+- Region filters
+- Interactive filtering
 
-### Interactive Features
+The dashboard allows users to explore sales performance from different business perspectives rather than relying only on static charts.
 
-- Year slicer
-- Region slicer
-- Interactive visual filtering
-- KPI cards
-- Monthly trend analysis
-- Product performance analysis
-- Category and segment analysis
+## 💡 Key Insights
 
-## Key Insights
+The analysis identified several notable patterns within the dataset:
 
-- West region generated the highest sales
-- Technology category generated the highest revenue
-- Top-performing products contribute significantly to overall sales
-- Sales vary across months, with stronger performance toward the end of the year
-- Standard shipping represents a significant proportion of shipping activity
+- The **West region** recorded the strongest sales performance among the regions analysed.
+- **Technology** was the strongest-performing category in terms of sales.
+- Sales showed stronger performance toward the **end of the year**, indicating seasonal variation.
+- **Standard shipping** represented a significant proportion of shipping activity.
+- Product and sub-category analysis highlighted differences in sales contribution across the portfolio.
 
-## Business Value
+> **Data limitation:** This dataset does not contain a Profit field, so the project does **not** make profit or profitability claims.
 
-This project demonstrates an end-to-end data analytics workflow, transforming raw retail transaction data into meaningful business insights.
+## 📁 Repository Structure
 
-The workflow includes:
+```text
+superstore-sales-analysis/
+│
+├── Data/
+│   └── Raw and cleaned datasets
+│
+├── Notebook/
+│   └── Jupyter Notebook for data analysis
+│
+├── Output/
+│   └── Analysis outputs and visualisations
+│
+├── PowerBI/
+│   └── Power BI dashboard files
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
 
-1. Data Cleaning
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. KPI Development
-5. Data Modelling
-6. DAX Measures
-7. Power BI Dashboard Development
-8. Business Insights
+## 🚀 How to Run the Python Analysis
 
-## Skills Demonstrated
+### 1. Clone the repository
 
-### Data Analysis
+```bash
+git clone https://github.com/USMAN907/superstore-sales-analysis.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd superstore-sales-analysis
+```
+
+### 3. Install the required Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Open the Jupyter Notebook
+
+Navigate to the `Notebook/` folder and open the analysis notebook using Jupyter Notebook or JupyterLab.
+
+```bash
+jupyter notebook
+```
+
+## 📊 Power BI
+
+The Power BI files are available in the:
+
+```text
+PowerBI/
+```
+
+folder.
+
+Open the Power BI project in **Microsoft Power BI Desktop** to explore the interactive dashboard.
+
+## 🧠 Skills Demonstrated
+
+This project demonstrates practical experience in:
 
 - Data Cleaning
+- Data Preprocessing
 - Exploratory Data Analysis
-- Feature Engineering
-- KPI Analysis
-- Business Analysis
-
-### Data Visualization
-
-- Data Visualization
-- Dashboard Design
-- Trend Analysis
-- Comparative Analysis
-- Business-focused Reporting
-
-### Power BI
-
-- Power BI Dashboard Development
-- Data Modelling
+- KPI Development
+- Business Intelligence
+- Data Visualisation
+- Dashboard Development
 - Power Query
 - DAX
-- Measures
-- Slicers
-- Interactive Visualizations
-
-### Python
-
+- Python Data Analysis
 - Pandas
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- Business Insight Generation
+- Data Storytelling
+- Git & GitHub
 
-## Outputs
+## 📌 Future Improvements
 
-The Output folder contains:
+Potential extensions to the project include:
 
-- Monthly sales trend charts
-- Sales by region charts
-- Sales by category charts
-- Sales by sub-category charts
-- Product analysis
-- KPI summary
-- Aggregated sales tables
-- Power BI dashboard screenshot
+- Adding a dedicated **SQL analysis layer**
+- Customer segmentation
+- Sales forecasting
+- Advanced Power BI drill-through analysis
+- Additional DAX measures
+- Automated data refresh
+- More advanced customer and product analytics
+- Deployment of the dashboard for wider business use
 
-The PowerBI folder contains the completed Power BI dashboard file.
+## 👤 Author
 
-## Project Workflow
+**Muhammad Usman**
 
-Raw Data  
-↓  
-Data Cleaning  
-↓  
-Exploratory Data Analysis  
-↓  
-Feature Engineering  
-↓  
-KPI Analysis  
-↓  
-Power BI Data Modelling  
-↓  
-DAX Measures  
-↓  
-Interactive Dashboard  
-↓  
-Business Insights
+MSc Big Data & Business Intelligence
+
+Interested in:
+
+- Data Analytics
+- Business Intelligence
+- Data Science
+- Machine Learning
+- AI
+- Business Analytics
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
