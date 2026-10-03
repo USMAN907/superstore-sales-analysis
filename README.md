@@ -156,16 +156,6 @@ The Output folder contains:
 
 The PowerBI folder contains the completed Power BI dashboard file.
 
-## Future Improvements
-
-- Profit and profit-margin analysis
-- Customer segmentation
-- Regional profitability analysis
-- Sales forecasting
-- Advanced DAX calculations
-- Drill-through analytical pages
-- Automated data refresh
-
 ## Project Workflow
 
 Raw Data  
